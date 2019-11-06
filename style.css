@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+
+.container {
+    padding: 0;
+    margin-top: 0;
+}
+
+body {
+    /*font-family: abril-display;*/
+    font-family: "Raleway", sans-serif;
+    color: white;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+}
+
+#logo {
+    width: 10%;
+    margin: 2% 10% 2% 0;
+}
+ 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #376177;
+    
+} 
+
+#links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: #376177;
+}
+
+nav h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 0 !important;
+    color: black;
+    background-color: #376177;
+    height: auto;
+}
+.pano-images {
+    width: 100%;
+}
+
+#section-overlap {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    background-color: #376177;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.75);
+    width: 45%;
+    opacity: .9;
+    height: auto;
+}
+
+#section-overlap h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    margin-left: 2em;
+    margin-right: 8em;
+}
+
+#section-overlap h2 {
+    color: white;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    
+}
+
+#subscribe-form-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #376177;
+    border-bottom: 2px solid white;
+}
+
+#form {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+#subscribe-form-section h1 {
+    margin-top: 5%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#form p {
+    margin-left: 20%;
+}
+
+#form input {
+    margin-left: 20%;
+    border: none;
+    width: 60%;
+    height: 2.5em;
+    border-radius: 5px;
+}
+
+#form button {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    border: 1px solid white;
+    padding: 1em 1em;
+    background-color: #376177;
+    outline: none;
+    cursor: pointer;
+}
+
+#employees {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#employees h1 {
+    margin-top: 5%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#employees h2 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+#profiles-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 10%
+}
+
+.profile-boxes {
+    border: 1px solid white;
+    
+}
+
+.profile-boxes img {
+    width: 100%;
+    border-bottom: 1px solid white; 
+    
+}
+
+#profiles-logo {
+    width: 35%;
+    margin: 0 5%;
+}
+
+.profile-description p {
+    margin-left: 5%;
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5%;
+}
+
+#contact-section h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#contact-section h2 {
+    margin-bottom: 5%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#contact-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contact-info-containers {
+    text-align: center;
+    border: 1px solid white;
+    padding: 1em 1em;
+    width: 40%;
+}
+
+#references {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+#references img {
+    margin-bottom: 10%;
+}
